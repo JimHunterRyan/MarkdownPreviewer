@@ -5,13 +5,11 @@ window.onload = function() {
 
   var input = this.document.getElementById("editor")
   input.innerHTML= 
-  `# Welcome to my React Markdown Previewer!
+  `# Welcome to my Markdown Previewer!
   
   ## This is a sub-heading...
   ### And here's some other cool stuff:
     
-  Heres some code, \`<div></div>, between 2 backticks.
-  
   \`\`\`
   // this is multi-line code:
   
