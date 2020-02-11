@@ -6,7 +6,7 @@
     <title>Markdown Previewer</title>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    
+
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
@@ -19,13 +19,8 @@
       <img src="images/md.png" alt="Markdown logo" class="mdlogo" />
     </header>
     <main>
-        <textarea id="editor" cols="90" rows="30" ></textarea>
-        <div id="preview">
-        
-            hey
-        </div>
+      <textarea id="editor" cols="90" rows="30" onkeydown="func()"># hey </textarea>
+      <div id="preview">hey</div>
     </main>
-    
   </body>
- 
 </html>
