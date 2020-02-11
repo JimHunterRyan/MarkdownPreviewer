@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Markdown Previewer</title>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="pageTitle">Markdown Previewer</h1>
+      <img src="images/md.png" alt="Markdown logo" class="mdlogo" />
+    </header>
+    <main>
+        <textarea id="editor" cols="90" rows="30" ></textarea>
+        <div id="preview">
+        
+            hey
+        </div>
+    </main>
+    
+  </body>
+ 
 </html>

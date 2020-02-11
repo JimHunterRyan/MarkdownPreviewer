@@ -1,0 +1,41 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+#editor{
+    width: 40vw;
+    border: 1px blue solid;
+}
+#preview{
+    margin-left: 5vw;
+    border: 1px blue solid;
+    width: 40vw;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.mdlogo{
+    margin-left: 10px;
+    max-width:4%;
+    height:auto;
+}
+.pageTitle{
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
