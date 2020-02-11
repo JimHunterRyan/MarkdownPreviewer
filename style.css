@@ -1,4 +1,5 @@
 html {
+    background-color: #f8e8f4;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -15,11 +16,13 @@ main{
 #editor{
     width: 40vw;
     border: 1px blue solid;
+    background-color: #e8f4f8
 }
 #preview{
     margin-left: 5vw;
     border: 1px blue solid;
     width: 40vw;
+    background-color: #e8f4f8;
 }
 
 
