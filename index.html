@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Markdown Previewer</title>
-    <script src="script.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
+    
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
@@ -19,8 +19,9 @@
       <img src="images/md.png" alt="Markdown logo" class="mdlogo" />
     </header>
     <main>
-      <textarea id="editor" cols="90" rows="30" onkeydown="func()"># hey </textarea>
+      <textarea id="editor" cols="90" rows="30" onkeydown="update()" onkeypress="update()" onkeyup="update()"></textarea>
       <div id="preview"></div>
     </main>
   </body>
+  <script src="script.js"></script>
 </html>
