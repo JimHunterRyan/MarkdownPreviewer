@@ -1,6 +1,6 @@
 # MarkdownPreviewer
 A markdown previewer using the MarkedJS library  
-[Live site](http://ryanjim.me/MarkdownPreviewer/)  
+[Live site](https://jimryan.eu/MarkdownPreviewer/)  
 
 ![](MarkdownPreviewer.gif)  
 
