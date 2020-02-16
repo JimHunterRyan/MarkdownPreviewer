@@ -49,5 +49,5 @@ document.getElementById("editor").addEventListener("onkeykeydown keypress keyupp
 
 function update() {
   document.getElementById("preview").innerHTML = marked(document.getElementById("editor").value);
-    
+  
 }
